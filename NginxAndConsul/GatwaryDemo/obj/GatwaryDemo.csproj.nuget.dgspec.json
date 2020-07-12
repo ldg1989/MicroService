@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj": {}
+    "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj": {}
   },
   "projects": {
-    "D:\\github\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj": {
+    "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj",
+        "projectUniqueName": "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj",
         "projectName": "GatwaryDemo",
-        "projectPath": "D:\\github\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj",
-        "packagesPath": "C:\\Users\\64148\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\NginxAndConsul\\GatwaryDemo\\obj\\",
+        "projectPath": "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj",
+        "packagesPath": "C:\\Users\\LDG\\.nuget\\packages\\",
+        "outputPath": "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\64148\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LDG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,12 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

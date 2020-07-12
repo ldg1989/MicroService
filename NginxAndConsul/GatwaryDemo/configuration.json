@@ -1,0 +1,24 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "Api/{url}", // 服务地址
+      "DownstreamSchems": "http",
+      "UpstreamPathTemplate": "T/{url}", //网管地址  url 变量
+      "UpstreamHttpMethod": [ "Get", "Http" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "",
+      "LoadServiceOptions": {
+        "Type": "RoundRobin" //轮训  LeastConnection 最少链接数 
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl"："http://127.0.0.1:6299", //网关对外地址 
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": "8500",
+      "Type": "Consul"
+    }
+
+  }
+}
