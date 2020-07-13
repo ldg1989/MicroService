@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vb52YJzp+6sKOxgAGqCYB+Bm0dRMaBnfCEy1sUTW9rSzx0VCDv6I6CHsIFSU5JOaar0io83b2plPvHGwgbwnaQ==",
+  "dgSpecHash": "Gb8glqhWRVA/r4+1EKaID/j1rDMjWPZonqgbDf+CxOSi27vPIIx6U0dNFW6tihKRQ52Q0z0+aGP6u2UUXKYesA==",
   "success": true,
-  "projectFilePath": "D:\\github\\MicroService\\NginxAndConsul\\NginxDemoNew\\NginxDemoNew.csproj",
+  "projectFilePath": "D:\\github\\MicroService\\NginxAndConsul\\NginxDemoNew\\ConsulAndOcelotDemoNew.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\64148\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

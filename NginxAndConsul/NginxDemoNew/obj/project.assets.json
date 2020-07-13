@@ -5211,9 +5211,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\MicroService\\NginxAndConsul\\NginxDemoNew\\NginxDemoNew.csproj",
-      "projectName": "NginxDemoNew",
-      "projectPath": "D:\\github\\MicroService\\NginxAndConsul\\NginxDemoNew\\NginxDemoNew.csproj",
+      "projectUniqueName": "D:\\github\\MicroService\\NginxAndConsul\\NginxDemoNew\\ConsulAndOcelotDemoNew.csproj",
+      "projectName": "ConsulAndOcelotDemoNew",
+      "projectPath": "D:\\github\\MicroService\\NginxAndConsul\\NginxDemoNew\\ConsulAndOcelotDemoNew.csproj",
       "packagesPath": "C:\\Users\\64148\\.nuget\\packages\\",
       "outputPath": "D:\\github\\MicroService\\NginxAndConsul\\NginxDemoNew\\obj\\",
       "projectStyle": "PackageReference",
