@@ -35,7 +35,7 @@ namespace NginxDemoNew
           Interval = TimeSpan.FromSeconds(15),// 请求间隔时间
           HTTP = $"{DeployUrl}/api/index/get2",//接口地址
           Timeout = TimeSpan.FromSeconds(5),//检测等待时间
-          DeregisterCriticalServiceAfter = TimeSpan.FromSeconds(60)//失败后多久移除
+          DeregisterCriticalServiceAfter = TimeSpan.FromSeconds(20)//失败后多久移除
         }
 
       });

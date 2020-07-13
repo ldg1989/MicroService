@@ -22,17 +22,17 @@ namespace NginxDemoNew
         Host.CreateDefaultBuilder(args)
             .ConfigureWebHostDefaults(webBuilder =>
             {
-              //webBuilder.UseKestrel(
-              //    options =>
-              //    {
-              //      Uri uri = new Uri(DeployUrl);
-              //      IPAddress ip = IPAddress.Parse(uri.Host);
-              //      int port = uri.Port;
-              //      options.Listen(ip, port);
-              //      //设置响应时间
-              //      options.Limits.KeepAliveTimeout = TimeSpan.FromMinutes(20);
-              //      options.Limits.RequestHeadersTimeout = TimeSpan.FromMinutes(20);
-              //    });
+              webBuilder.UseKestrel(
+                  options =>
+                  {
+                    Uri uri = new Uri(DeployUrl);
+                    IPAddress ip = IPAddress.Parse(uri.Host);
+                    int port = uri.Port;
+                    options.Listen(ip, port);
+                    //设置响应时间
+                    options.Limits.KeepAliveTimeout = TimeSpan.FromMinutes(20);
+                    options.Limits.RequestHeadersTimeout = TimeSpan.FromMinutes(20);
+                  });
               webBuilder.UseStartup<Startup>();
             });
   }

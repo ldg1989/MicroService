@@ -19,7 +19,7 @@ namespace NginxDemoNew.Controllers
     {
       Console.WriteLine("这里是：" + DeployUrl);
 
-      return new JsonResult("这里是：" + DeployUrl);
+      return new JsonResult("this is：" + DeployUrl);
     }
 
     [HttpGet]

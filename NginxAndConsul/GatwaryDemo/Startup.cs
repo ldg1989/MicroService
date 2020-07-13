@@ -17,9 +17,14 @@ namespace GatwaryDemo
 {
   public class Startup
   {
-    public Startup(IConfiguration configuration)
+    public Startup(IConfiguration configuration, IHostEnvironment env)
     {
-      Configuration = configuration;
+      var builder = new Microsoft.Extensions.Configuration.ConfigurationBuilder();
+      builder.SetBasePath(env.ContentRootPath)
+        .AddJsonFile("configuration.json", optional: false, reloadOnChange: true)
+          .AddJsonFile("appsettings.json", true, true)
+        .AddEnvironmentVariables();
+      Configuration = builder.Build();
     }
 
     public IConfiguration Configuration { get; }
@@ -35,7 +40,7 @@ namespace GatwaryDemo
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
-      app.UseOcelot()  ;//整个管道换成 ocelot
+      app.UseOcelot().Wait();  //整个管道换成 ocelot
       //if (env.IsDevelopment())
       //{
       //  app.UseDeveloperExceptionPage();

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj": {}
+    "D:\\github\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj": {}
   },
   "projects": {
-    "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj": {
+    "D:\\github\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj",
+        "projectUniqueName": "D:\\github\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj",
         "projectName": "GatwaryDemo",
-        "projectPath": "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj",
-        "packagesPath": "C:\\Users\\LDG\\.nuget\\packages\\",
-        "outputPath": "F:\\githubcode\\MicroService\\NginxAndConsul\\GatwaryDemo\\obj\\",
+        "projectPath": "D:\\github\\MicroService\\NginxAndConsul\\GatwaryDemo\\GatwaryDemo.csproj",
+        "packagesPath": "C:\\Users\\64148\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\MicroService\\NginxAndConsul\\GatwaryDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LDG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\64148\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,11 +43,11 @@
           "dependencies": {
             "Ocelot": {
               "target": "Package",
-              "version": "[16.0.1, )"
+              "version": "[15.0.7, )"
             },
             "Ocelot.Provider.Consul": {
               "target": "Package",
-              "version": "[16.0.1, )"
+              "version": "[15.0.7, )"
             }
           },
           "imports": [
@@ -60,6 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
