@@ -32,7 +32,6 @@ D:\github\MicroService\NginxAndConsul\NginxAndConsul\bin\Debug\netcoreapp3.1\Ngi
 D:\github\MicroService\NginxAndConsul\NginxAndConsul\bin\Debug\netcoreapp3.1\NginxAndConsul.pdb
 D:\github\MicroService\NginxAndConsul\NginxAndConsul\bin\Debug\netcoreapp3.1\Consul.dll
 D:\github\MicroService\NginxAndConsul\NginxAndConsul\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\github\MicroService\NginxAndConsul\NginxAndConsul\obj\Debug\netcoreapp3.1\NginxAndConsul.csprojAssemblyReference.cache
 D:\github\MicroService\NginxAndConsul\NginxAndConsul\obj\Debug\netcoreapp3.1\NginxAndConsul.AssemblyInfoInputs.cache
 D:\github\MicroService\NginxAndConsul\NginxAndConsul\obj\Debug\netcoreapp3.1\NginxAndConsul.AssemblyInfo.cs
 D:\github\MicroService\NginxAndConsul\NginxAndConsul\obj\Debug\netcoreapp3.1\NginxAndConsul.csproj.CoreCompileInputs.cache

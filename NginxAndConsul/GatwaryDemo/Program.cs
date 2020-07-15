@@ -17,7 +17,16 @@ namespace GatwaryDemo
     public static void Main(string[] args)
     {
       new WebHostBuilder()
-                    .UseKestrel()
+                    .UseKestrel(options =>
+                    {
+                      Uri uri = new Uri("http://192.168.30.193:6677/");
+                      IPAddress ip = IPAddress.Parse(uri.Host);
+                      int port = uri.Port;
+                      options.Listen(ip, port);
+                      //设置响应时间
+                      options.Limits.KeepAliveTimeout = TimeSpan.FromMinutes(20);
+                      options.Limits.RequestHeadersTimeout = TimeSpan.FromMinutes(20);
+                    })
                     .UseContentRoot(Directory.GetCurrentDirectory())
                     .ConfigureAppConfiguration((hostingContext, config) =>
                     {
