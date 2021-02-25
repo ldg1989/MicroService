@@ -1,6 +1,5 @@
 D:\github\MicroService\NginxAndConsul\NginxDemoNew\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\github\MicroService\NginxAndConsul\NginxDemoNew\bin\Debug\netcoreapp3.1\appsettings.json
-D:\github\MicroService\NginxAndConsul\NginxDemoNew\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\github\MicroService\NginxAndConsul\NginxDemoNew\bin\Debug\netcoreapp3.1\ConsulAndOcelotDemoNew.exe
 D:\github\MicroService\NginxAndConsul\NginxDemoNew\bin\Debug\netcoreapp3.1\ConsulAndOcelotDemoNew.deps.json
 D:\github\MicroService\NginxAndConsul\NginxDemoNew\bin\Debug\netcoreapp3.1\ConsulAndOcelotDemoNew.runtimeconfig.json
@@ -21,3 +20,4 @@ D:\github\MicroService\NginxAndConsul\NginxDemoNew\obj\Debug\netcoreapp3.1\stati
 D:\github\MicroService\NginxAndConsul\NginxDemoNew\obj\Debug\netcoreapp3.1\ConsulAndOcelotDemoNew.dll
 D:\github\MicroService\NginxAndConsul\NginxDemoNew\obj\Debug\netcoreapp3.1\ConsulAndOcelotDemoNew.pdb
 D:\github\MicroService\NginxAndConsul\NginxDemoNew\obj\Debug\netcoreapp3.1\ConsulAndOcelotDemoNew.genruntimeconfig.cache
+D:\github\MicroService\NginxAndConsul\NginxDemoNew\obj\Debug\netcoreapp3.1\scopedcss\bundle\ConsulAndOcelotDemoNew.styles.css

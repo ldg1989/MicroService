@@ -39,7 +39,6 @@ F:\githubcode\MicroService\NginxAndConsul\GatwaryDemo\bin\Debug\netcoreapp3.1\Ne
 F:\githubcode\MicroService\NginxAndConsul\GatwaryDemo\bin\Debug\netcoreapp3.1\Ocelot.dll
 F:\githubcode\MicroService\NginxAndConsul\GatwaryDemo\obj\Debug\netcoreapp3.1\GatwaryDemo.csproj.CopyComplete
 D:\github\MicroService\NginxAndConsul\GatwaryDemo\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\github\MicroService\NginxAndConsul\GatwaryDemo\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\github\MicroService\NginxAndConsul\GatwaryDemo\bin\Debug\netcoreapp3.1\appsettings.json
 D:\github\MicroService\NginxAndConsul\GatwaryDemo\bin\Debug\netcoreapp3.1\configuration.json
 D:\github\MicroService\NginxAndConsul\GatwaryDemo\bin\Debug\netcoreapp3.1\GatwaryDemo.exe
@@ -74,3 +73,4 @@ D:\github\MicroService\NginxAndConsul\GatwaryDemo\obj\Debug\netcoreapp3.1\static
 D:\github\MicroService\NginxAndConsul\GatwaryDemo\obj\Debug\netcoreapp3.1\GatwaryDemo.dll
 D:\github\MicroService\NginxAndConsul\GatwaryDemo\obj\Debug\netcoreapp3.1\GatwaryDemo.pdb
 D:\github\MicroService\NginxAndConsul\GatwaryDemo\obj\Debug\netcoreapp3.1\GatwaryDemo.genruntimeconfig.cache
+D:\github\MicroService\NginxAndConsul\GatwaryDemo\obj\Debug\netcoreapp3.1\scopedcss\bundle\GatwaryDemo.styles.css

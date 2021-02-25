@@ -1,18 +1,17 @@
 {
   "ReRoutes": [
     {
-      "DownstreamPathTemplate": "/api/index/get1",
-      "DownstreamScheme": "http", 
-      "UpstreamPathTemplate": "/get1",
-      "UpstreamHttpMethod": [ "GET"],
-      "ServiceName": "TestService",
+      "DownstreamPathTemplate": "/api/{url}", //下游 url
+      "DownstreamScheme": "http",   //下游 类型 http 或https
+      "UpstreamPathTemplate": "/{url}", //上游 url
+      "UpstreamHttpMethod": [ "GET","POST"],
+      "ServiceName": "TestService", // 服务名称
       "LoadBalancerOptions": {
-        "Type": "RoundRobin"
+        "Type": "RoundRobin" //轮训方式  LeastConnection 最少链接数 
       }
     } 
   ],
-  "GlobalConfiguration": {
-    //"BaseUrl": "http://192.168.30.193:6677/", //网关对外地址
+  "GlobalConfiguration": { 
     "ServiceDiscoveryProvider": {
       "Host": "localhost",
       "Port": 8500,
@@ -21,36 +20,4 @@
   }
 }
 
-
-
-
-//{
-//  "ReRoutes": [
-//    {
-//      "DownstreamPathTemplate": "/", // 服务地址
-//      "DownstreamScheme": "http",
-//      "UpstreamPathTemplate": "/", //网管地址  url 变量
-//      "UpstreamHttpMethod": [ "GET", "POST" ],
-//      "UseServiceDiscovery": false,
-//      "DownstreamHostAndPorts": [
-//        {
-//          "Host": "192.168.30.193",
-//          "Port": 8888
-//        }
-//      ],
-//      "ServiceName": "TestService",
-//      "LoadBalancerOptions": {
-//        "Type": "RoundRobin" //轮训  LeastConnection 最少链接数 
-//      }
-//    }
-//  ],
-//  "GlobalConfiguration": {
-//    "RequestIdKey": "OcRequestId",
-//    "BaseUrl": "http://192.168.30.193:6677/", //网关对外地址
-//    "ServiceDiscoveryProvider": {
-//      "Host": "localhost",
-//      "Port": "8500",
-//      "Type": "Consul"
-//    }
-//  }
-//}
+ 

@@ -19,7 +19,7 @@ namespace GatwaryDemo
       new WebHostBuilder()
                     .UseKestrel(options =>
                     {
-                      Uri uri = new Uri("http://192.168.30.193:6677/");
+                      Uri uri = new Uri("http://192.168.30.134:6677/");
                       IPAddress ip = IPAddress.Parse(uri.Host);
                       int port = uri.Port;
                       options.Listen(ip, port);
